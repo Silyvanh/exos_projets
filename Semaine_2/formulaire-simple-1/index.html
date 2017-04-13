@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercice 1 - Formulaire</title>
+  </head>
+  <body>
+    <form method="post">
+      <label for="pseudo">Pseudo</label>
+      <input type="text" name="pseudo" id="pseudo" autofocus/>
+
+      <label for="pass">Mot de passe</label>
+      <input type="password" name="pass" id="pass" maxlength="12" value="0000" />
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" autofocus required value="exemple@domaine.xx" />
+
+      <label for="nombre">Nombre</label>
+      <input type="number" name="nombre" id="nombre" min="18" max="35" value="30" />
+
+      <input type="submit" value="Envoyer"/>
+    </form>
+  </body>
+</html>

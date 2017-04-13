@@ -1,0 +1,36 @@
+table
+{
+  border-collapse: collapse;
+  background-color: #BFC7C6;
+}
+
+td, th
+{
+  border: 1px solid black;
+}
+
+td
+{
+  text-align: center;
+}
+
+caption
+{
+  font-family: arial;
+  font-size: 25px;
+}
+
+.lib
+{
+  font-style: italic;
+}
+
+.deb
+{
+  color: #E30312;
+}
+
+.cred
+{
+  color:#03E31A;
+}

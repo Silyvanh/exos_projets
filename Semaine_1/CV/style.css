@@ -1,0 +1,35 @@
+* {
+  font-family: century gothic;
+}
+
+h2 {
+  color: #DC143C;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  float: right;
+}
+
+.coordonnées {
+  text-align: center;
+}
+
+h4 {
+  color: #F08080;
+}
+
+li {
+  list-style-type: none;
+}
+
+li:before {
+	content: "→ ";
+}
+
+.corpus {
+  margin-left: 100px;
+}

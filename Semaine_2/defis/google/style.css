@@ -1,0 +1,23 @@
+body {
+  font-family: arial;
+}
+
+.head {
+  text-align: right;
+}
+
+a {
+  color: darkslategrey;
+  text-decoration: none;
+}
+
+.logo {
+  width: 250px;
+  height: 80px;
+}
+
+div.center {
+  text-align: center;
+  margin: auto;
+  margin-top: 200px;
+}

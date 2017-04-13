@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+}
+
+.gras {
+  font-weight: bold;
+}
+
+.italique {
+  font-style: italic;
+}
+
+.list2 {
+  margin-left: 30px;
+}
+
+.list3 {
+  margin-left: 60px;
+}
+
+.list4 {
+  margin-left: 90px;
+}

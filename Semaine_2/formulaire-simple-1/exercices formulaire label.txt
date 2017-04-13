@@ -1,0 +1,12 @@
+Exercice 1 _ Formulaire
+
+<label for="text"><input type="text" placeholder="Votre Pseudo"/></label>
+
+<label for="password"><input type="password" maxlength="12"/></label>
+
+
+Exercice 2 _ Formulaire
+
+<label for="email"><input id="mon-mail" type="email" placeholder="exemple@domain.xx"/></label>
+
+<label for="nombre"><input id="mon-nombre" type="number" min="5" max="12"/></label>

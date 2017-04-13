@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Exercice 2 - Formulaire complet</title>
+</head>
+<body>
+  <form method="post">
+    <p><label for="pseudo">Pseudo :</label>
+      <input type="text" name="pseudo" id="pseudo" autofocus required/></p>
+      <p><label for="password">Mot de passe :</label>
+        <input type="password" name="password" id="password" maxlength="20" required/></p>
+        <p><label for="age">Age :</label>
+          <input type="number" name="age" id="age" min="18" max="40"/></p>
+          <p>Vos qualités :</p>
+          <input type="checkbox" name="qualité" id="qualité"/><label for="qualité">sérieux</label><br>
+          <input type="checkbox" name="qualité" id="qualité"/><label for="qualité">ponctuel</label><br>
+          <input type="checkbox" name="qualité" id="qualité"/><label for="qualité">jovial</label><br>
+          <input type="checkbox" name="qualité" id="qualité"/><label for="qualité">rigoureux</label><br>
+          <input type="checkbox" name="qualité" id="qualité"/><label for="qualité">drôle</label><br>
+          <p>Travail à la maison :<input type="radio" name="maison" value="oui" id="oui"/><label for="oui">oui</label>
+            <input type="radio" name="maison" value="non" id="non"/><label for="non">non</label></p>
+            <p><label for="message">Message</label>
+              <textarea name="message" id="message" rows="10" cols="50">Tapez votre message...</textarea></p>
+              <input type="submit" value="Envoyer"/>
+            </form>
+            </body>
+            </html>

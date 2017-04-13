@@ -1,0 +1,41 @@
+body {
+  font-family: century gothic;
+}
+
+header {
+  color: MediumVioletRed;
+  border: 1px solid white;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  background: linear-gradient(to right, white, powderblue)
+}
+
+header p {
+  font-style: oblique;
+}
+
+img {
+  width: 30%;
+}
+
+.coordonnees {
+  position: fixed;
+  top: 150px;
+  left: 80px;
+}
+
+.contact {
+  color: MediumVioletRed;
+  font-size: 16px;
+}
+
+h3 {
+border-bottom: 1px solid powderblue;
+text-align: center;
+}
+
+.corpus {
+  width: 420px;
+  margin: auto;
+}

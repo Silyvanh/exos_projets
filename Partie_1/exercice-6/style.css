@@ -1,0 +1,24 @@
+h1
+{
+  text-align: center;
+}
+
+.fin
+{
+  font-style: italic;
+}
+
+.rouge
+{
+  color: red;
+}
+
+.vert
+{
+  color: green;
+}
+
+.gras
+{
+  font-weight: bold;
+}

@@ -1,0 +1,27 @@
+body {
+  font-family: verdana;
+  color: darkslategrey;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid lightgrey;
+  width: 260px;
+  height: 60px;
+}
+
+td img {
+  float: left;
+}
+
+.legend {
+  color: lightcoral;
+  font-size: 90%;
+}
+
+caption {
+  font-size: 150%;
+}
