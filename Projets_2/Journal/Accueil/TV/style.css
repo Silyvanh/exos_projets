@@ -1,0 +1,45 @@
+body {
+  font-family: century gothic;
+  color: darkslategrey;
+}
+
+div.header {
+  width: 100%;
+  height: 90px;
+  background-color: powderblue;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.header {
+  margin: auto;
+  font-family: freestyle script;
+  color: grey;
+  font-size: 180%;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td, th {
+  border: 1px solid lightgrey;
+  width: 260px;
+  height: 60px;
+}
+
+td img {
+  float: left;
+}
+
+.legend {
+  color: lightcoral;
+  font-size: 90%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 150%;
+}

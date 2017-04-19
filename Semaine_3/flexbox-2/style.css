@@ -2,17 +2,16 @@ div.container {
   height: 500px;
   border: 2px solid lightgrey;
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   flex-wrap: wrap;
-  justify-content: space-around;
- }
+  justify-content: center;
+}
 
 div.item {
-  width: 200px;
-  height: 200px;
-  background-color: lightblue;
   display: flex;
-  margin: auto;
+  width: 220px;
+  background-color: lightblue;
+  margin: 5px;
 }
 
 p {
