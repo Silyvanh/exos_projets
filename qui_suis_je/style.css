@@ -1,0 +1,59 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  color: #454545;
+  font-size: 20px;
+  background-color: white;
+}
+
+img.unistars {
+  width: 120px;
+  display: block;
+  margin: auto;
+}
+
+img.meow {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+}
+
+div.conteneur {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+div.valeur {
+  border: 2px dotted #66CFE6;
+  background-color: #F5C7D4;
+  width: 180px;
+  height: 180px;
+  display: flex;
+}
+
+p {
+  margin: auto;
+}
+
+p:first-letter
+{
+  font-weight: bold;
+}
+
+h4 {
+  text-align: center;
+  font-size: 18px;
+}
+
+div.valeur:hover {
+  background-color: #EDEB8F;
+  border-radius: 100px;
+}
